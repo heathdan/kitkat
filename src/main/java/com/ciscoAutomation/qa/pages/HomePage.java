@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
  */
 public class HomePage extends BasePage {
 
-    @FindBy(className=".//div[@class='page-content dashboard-workspace default-landing navbar-fixed skin-4']")
+    @FindBy(xpath=".//div[@class='page-content dashboard-workspace default-landing navbar-fixed skin-4']")
     private WebElement landingPage;
 
     public static final String HOME_PAGE_TITLE="Cisco";
