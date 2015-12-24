@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="Cisco-Automation" />
+        <module name="DecisiveIyer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
-      <module name="Cisco-Automation" target="1.7" />
+      <module name="DecisiveIyer" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
